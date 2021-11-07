@@ -9,6 +9,7 @@ import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 
 public class OrderApp {
 
@@ -29,5 +30,6 @@ public class OrderApp {
         Order order = orderService.createOrder(memberId, "itemA", 20000);
 
         System.out.println("order = " + order);
+
     }
 }
