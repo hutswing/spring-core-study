@@ -8,7 +8,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class XmlAppContext {
+public class XmlAppContextTest {
 
     @Test
     void xmlAppContetx() {
